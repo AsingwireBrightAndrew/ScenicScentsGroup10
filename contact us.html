@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>First Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="services.html">Services</a>
+        <a href="about us.html">About Us</a>
+        <a href="contact us.html">Contact Us</a>
+    </nav>
+
+    <h1>Contact Us</h1>
+    <div class="form-container">
+        <form action="/submit-form" method="post">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+
+            <fieldset>
+                <legend>Gender:</legend>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+            </fieldset>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <section id="contact">
+
+        <ul class="social-media-icons">
+            <li><a href="https://www.facebook.com"><img src="facebook-icon.png" alt="Facebook"></a></li>
+            <li><a href="https://www.twitter.com"><img src="twitter-icon.png" alt="Twitter"></a></li>
+            <li><a href="https://www.instagram.com"><img src="instagram-icon.png" alt="Instagram"></a></li>
+            <!-- Add more social media icons and links as needed -->
+        </ul>
+       
+        
+        <p><h3><marquee direction="right" bgcolor="white"> <em>Free delivery for bulk purchase!!! Free delivery for bulk purchase!!! Free delivery for bulk purchase!!! Free delivery for bulk purchase!!! Free delivery for bulk purchase!!!</em> </marquee></h3></p>
+        <ul>
+            <li><b>Email:</b> seenicscents@gmail.com</li>
+            <li><b>Phone:</b> +256 70175 1649/ +256 7804 81698</li>
+            <li><b>Address:</b> Masajja Main street Kampala Uganda</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p align="center">&copy; 2023 SenicScents. All rights reserved.</p>
+    </footer>
+
+
+
+</body>
+
+</html>
