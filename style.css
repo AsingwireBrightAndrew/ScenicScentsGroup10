@@ -1,5 +1,9 @@
-/* Reset some default styles */
-body, h2, h3, ul, li, iframe {
+body,
+h2,
+h3,
+ul,
+li,
+iframe {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -12,7 +16,7 @@ body {
     color: #333;
 }
 
-/* Header styles */
+
 .header {
     text-align: center;
     margin: 30px 0;
@@ -29,7 +33,6 @@ h1 {
     color: #777;
 }
 
-/* Navigation styles */
 nav {
     text-align: center;
     background-color: #f2f2f2;
@@ -49,20 +52,20 @@ a:hover {
     border-radius: 5px;
 }
 
-/* Main content container */
+
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* About Us section */
+
 p {
     margin-bottom: 20px;
     line-height: 1.8;
 }
 
-/* Management Team section */
+
 h2 {
     font-size: 24px;
     margin: 30px 0;
@@ -88,7 +91,7 @@ img {
     margin-bottom: 10px;
 }
 
-/* Company Profile section */
+
 h3 {
     font-size: 20px;
     margin: 20px 0;
@@ -99,7 +102,7 @@ h3:first-of-type {
     margin-top: 30px;
 }
 
-/* Video section */
+
 iframe {
     display: block;
     margin: 0 auto;
@@ -107,7 +110,7 @@ iframe {
     height: 315px;
     border: none;
     border-radius: 10px;
-    margin-bottom: 35px; /* Add padding below the video iframe */
+    margin-bottom: 35px;
 }
 
 /* Form container styles */
@@ -120,13 +123,13 @@ iframe {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Form label styles */
+
 label {
     display: block;
     margin-bottom: 5px;
 }
 
-/* Form input styles */
+
 input[type="text"],
 input[type="email"],
 textarea {
@@ -136,13 +139,13 @@ textarea {
     border-radius: 5px;
 }
 
-/* Form radio button styles */
+
 fieldset {
     border: none;
     margin: 10px 0;
 }
 
-/* Submit button styles */
+
 button[type="submit"] {
     background-color: #333;
     color: #fff;
@@ -157,7 +160,7 @@ button[type="submit"]:hover {
     background-color: #444;
 }
 
-/* Services Section styles */
+
 #services {
     background-color: #f9f9f9;
     padding: 20px;
@@ -186,17 +189,20 @@ p {
     color: #555;
 }
 
-/* Add color to headings */
-h1, h2, h3, h4 {
+
+h1,
+h2,
+h3,
+h4 {
     color: #218c74;
 }
 
-/* Add color to form labels */
+
 label {
     color: #555;
 }
 
-/* Add color to form input fields */
+
 input[type="text"],
 input[type="email"],
 textarea {
@@ -204,17 +210,14 @@ textarea {
     border: 1px solid #ccc;
 }
 
-/* Add color to form radio buttons */
 input[type="radio"] {
     margin-right: 5px;
 }
 
-/* Add color to form submit button on hover */
 button[type="submit"]:hover {
     background-color: #444;
 }
 
-/* Add color to footer */
 footer {
     background-color: #333;
     padding: 10px;
@@ -224,20 +227,14 @@ footer p {
     color: #fff;
 }
 
-/* Rest of your CSS styles */
 
-/* Modern Paragraph Styles */
 
-/* Apply a subtle background color to the paragraphs */
-/* Modern Paragraph Styles */
-        /* Apply a subtle background color to the paragraphs */
-
-        .container {
-            max-width: 800px;
-            margin-bottom:20px;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            padding-bottom: 30px;
-        }
+.container {
+    max-width: 800px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding-bottom: 30px;
+}
